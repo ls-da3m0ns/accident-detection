@@ -3,21 +3,21 @@ kind: Config
 
 clusters:
 - cluster:
-    server: https://192.168.99.103:8443
-    certificate-authority: /root/.kube/ca.crt
+    server:
+    certificate-authority: 
   name: kube
 
 
 contexts:
 - context:
-    cluster: kube
-    user: nitish
-  name: mkube
-current-context: mkube
+    cluster: 
+    user:
+  name: 
+current-context: 
 
 users:
 - name: nitish
   user:
-     client-key: /root/.kube/client.key
-     client-certificate: /root/.kube/client.crt
+     client-key: 
+     client-certificate: 
 
