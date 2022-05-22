@@ -16,7 +16,7 @@ contexts:
 current-context: 
 
 users:
-- name: nitish
+- name: 
   user:
      client-key: 
      client-certificate: 
